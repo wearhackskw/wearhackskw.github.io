@@ -1,0 +1,66 @@
+.bootstrap-switch {
+    margin-left: 10px;
+    display:inline-block;
+    float: right;
+    vertical-align: middle;
+}
+
+.form-wrapper {
+  margin-top: 50px;
+}
+
+#hint_id_is_student {
+  display: block;
+  width: 100%;
+  float: left;
+  padding-left: 0;
+}
+#confirmation-form-container section{
+  padding: 10px 0 0 0;
+}
+#confirmation-form-container {
+  margin-top: 10px;
+}
+#confirmation-form .checkbox label,
+#bonus .checkbox label,
+#about-you .checkbox label {
+  padding-left: 0;
+}
+
+#confirm .text,
+#register .text,
+#checkout .text {
+   margin-left: 10px;
+   text-transform: none;
+   font-family: "Raleway";
+   font-weight: 200;
+   letter-spacing: 1px;
+   font-size: 1em;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.help-block {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: small;
+}
+
+.message-error {
+    color:#a94442;
+}
+
+.message-success {
+    color:#3c763d;
+}
+
+#logo {
+    width: 100%;
+}
+
+.waiver{
+  padding: 5px 0 15px 0;
+  font-size: 15px;
+}
