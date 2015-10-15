@@ -40,6 +40,19 @@ p {
 .bg-primary {
   background-color: #1e699c;
 }
+.bg-countdown{
+  background-color: #1e699c;
+  background-image: url('../../images/countdown.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ height: 400px; 
+    
+}
+#countdown div{
+    
+}
 .bg-dark {
   background-color: #222222;
   color: white;

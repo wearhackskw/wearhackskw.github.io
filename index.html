@@ -63,7 +63,9 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;lang=en' rel='stylesheet' type='text/css'>
 
 
-
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
       <link rel="stylesheet" href="stylesheets/_base.css" type="text/css" />
       <link rel="stylesheet" href="stylesheets/css/animate.min.css" type="text/css" />
       <link rel="stylesheet" href="stylesheets/css/creative.css" type="text/css" />
@@ -71,12 +73,11 @@
       <link rel="stylesheet" href="stylesheets/_grid.css" type="text/css" />
       <link rel="stylesheet" href="stylesheets/_notes.css" type="text/css" />
       <link rel="stylesheet" href="stylesheets/_search.css" type="text/css" />
-      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
+      
 
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      
         
       <script type="text/javascript" src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 
@@ -105,98 +106,50 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+<!--
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="http://wearhacks.com/">WearHacks</a>
+-->
+              <a id="navLogo" class="navbar-brand" href="http://wearhacks.com/">
+                  <img src="/images/logo-all-white.png"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
+            <ul class="nav navbar-nav navbar-right">
               <!--  <li>
 <a class="page-scroll" href="#home">Home</a>
 </li> -->
               <li>
-                <a class="page-scroll" href="#about">About</a>
+                <a class="page-scroll" href="#attend">Attend</a>
               </li>
               <li>
                 <a class="page-scroll" href="#hardware">Hardware</a>
               </li>
 
               <li>
-                <a class="page-scroll" href="#judges">Judges</a>
+                <a class="page-scroll" href="schedule">Schedule</a>
+              </li>
+                
+              <li>
+                <a class="page-scroll" href="sponsors">Sponsors</a>
+              </li>
+                
+              <li>
+                <a class="page-scroll" href="mentors">Mentors</a>
               </li>
 
               <li>
                 <a class="page-scroll" href="#faq">FAQ</a>
               </li>
-              <!-- <li>
-<a class="page-scroll" href="#sponsors">Sponsors</a>
-</li>
-<li>
-<a class="page-scroll" href="#mentors">Mentors</a>
-</li>  -->
-              <li>
-                <a class="page-scroll" href="#schedule">Schedule</a>
-              </li>
-              <!-- <li>
-<a class="page-scroll" href="#venue">Venue</a>
-</li>
-<li>
-<a class="page-scroll" href="#organizers">Team</a>
-</li> -->
+                
               <li>
                 <a class="page-scroll" href="#contact">Contact</a>
               </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-
-              <li class="pull-right language-selection">
-                <form action="/i18n/setlang/" method="post">
-                  <input type='hidden' name='csrfmiddlewaretoken' value='QiZW2ScPhJygXJ1p4T5pL3iBTKHhVhIh' />
-
-                  <input type="hidden" name="language" value="fr">
-                  <input type="hidden" name="next" value="/fr/">
-                  <input class="btn btn-link" type="submit" value="FR"/>
-
-                </form>
-              </li>
-
-
-              <li class="pull-right">
-                <div class="social-btns">
-                  <a class="social-holder" href="http://facebook.com/wearhacks">
-                    <div class="fui-facebook fa fa-facebook">
-                    </div>
-                    <div class="fui-facebook fa fa-facebook">
-                    </div>
-                  </a> <a class="social-holder" href="http://twitter.com/wearhacks">
-                  <div class="fui-twitter fa fa-twitter">
-                  </div>
-                  <div class="fui-twitter fa fa-twitter">
-                  </div>
-                  </a> <a class="social-holder" href="https://www.linkedin.com/company/wearhacks">
-                  <div class="fui-linkedin fa fa-linkedin">
-                  </div>
-                  <div class="fui-linkedin fa fa-linkedin">
-                  </div>
-                  </a> <a class="social-holder" href="https://www.youtube.com/channel/UC2ptEc6sOrLmmivfPjWoIyA">
-                  <div class="fui-youtube fa fa-youtube">
-                  </div>
-                  <div class="fui-youtube fa fa-youtube">
-                  </div>
-                  </a>
-                </div>
-              </li>
-<!--
-              <li class="text-right">
-                <a class="btn btn-link pull-right" href="/en/register/">Register</a>
-              </li>
--->
             </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -213,85 +166,24 @@
             <div class="row">
               <div class="col-sm-12 action-panel">
                 <div class="row who">
-                  <div class="col col-sm-12 col-md-2 mascot">
-                  </div>
-                  <div class="col col-sm-12 col-md-6 logo">
-                  </div>
-                  <div class="col col-sm-12 col-md-4 info">
-                    <!-- <ul>
-<li>2-3 Oct 2015</li>
-<li>Montreal</li>
-<li>New Res Hall</li>
-</ul> -->
-                    <div><p class="small">20-22 Nov 2015</p></div>
-                    <div><p class="small">Kitchener-Waterloo</p></div>
-                    <div><p class="small">Accelerator Centre</p></div>
+                  <div class="col col-sm-12 col-md-12 logo">
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-offset-1 col-xs-10">
-                    <h3>The Waterloo-est Wearable Hackathon in North-America</h3>
+                  <div id="headerSubtitle" class="col-xs-offset-1 col-xs-10">
+                    <h1>KITCHENER/WATERLOO</h1>
                   </div>
                 </div>
                 <div class="row what">
-                  <div class="col col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 text action-label">
-                    <p>Innovate with</p>
-                  </div>
-                  <div class="col col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-2 hardware  cycle-slideshow"
-                       data-cycle-fx="flipVert"
-                       data-cycle-pause-on-hover="true"
-                       data-cycle-speed="1000"
-                       data-cycle-timeout="1500"
-                       data-cycle-center-vert="true"
-                       data-cycle-center-horz="true"
-                       data-cycle-caption="#alt-caption"
-                       data-cycle-caption-template=""
-                       >
-                    <img src="images/carousel/prod/nuance.png" class="nuance">
-                    <img src="images/carousel/prod/oculus.png" class="oculus">
-                    <img src="images/carousel/prod/kinect.png" class="kinect">
-                    <img src="images/carousel/prod/nod.png" class="nod">
-                    <img src="images/carousel/prod/myo-white.svg" class="myo">
-                    <div id="alt-caption" class="center"></div>
-                    <!-- </div> -->
-                  </div>
-                  <!-- <div class="col col-xs-3 text hardware-label">
-<p>Oculus Rift</p>
-</div> -->
+                    <div class="col col-sm-2-offset-5 col-md-2-offset-5">
+                        <p>Join us at Waterloo's own Accelerator Centre from November 20-22 and be a<br>part of Waterloo's coolest Hackathon for Wearables and Internet of Things</p>
+                                  
+                    </div>
                 </div>
+                  <!-- Mailchimp stuff was here -->
                 <div class="row how">
-
-                  <!-- Begin MailChimp Signup Form -->
-                  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-                  <style type="text/css">
-                    #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                  </style>
-                  <div class="col-md-4 col-md-offset-4">
-                    <form action="//github.us11.list-manage.com/subscribe/post?u=352d43fe8a9c233b175961d2f&amp;id=3bc8bc8fe0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                      <div class="input-group">
-                        <input placeholder="Email" type="email" value="" name="EMAIL" class="form-control">
-                        <span class="input-group-btn">
-                          <input type="submit" value="Subscribe" name="subscribe" class="btn btn-primary btn-default">
-                        </span>  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_352d43fe8a9c233b175961d2f_3bc8bc8fe0" tabindex="-1" value=""></div>
-                      </div><!-- /input-group -->
-                    </form>
-                  </div><!-- /.col-lg-6 -->
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-
-                or
-                <div class="row how">
-                  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                  <!--End mc_embed_signup-->
-
                   <div class="col-sm-4 col-sm-offset-4 col-xs-10">
-                    <a class="btn btn-default btn-xl btn-block" href="mailto:montreal@wearhacks.com">Sponsor Us</a>
+                    <a class="btn btn-default btn-xl btn-block" href="mailto:kitchener@wearhacks.com">Sponsor Us</a>
                   </div>
                 </div>
               </div>
@@ -301,11 +193,11 @@
         <div class="background"></div>
       </header>
 
-      <section class="bg-primary" id="countdown">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 text-center">
-                
+      
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+            <section class="bg-countdown" id="countdownSection">
                 <!-- Clock -->
                 <div id="countdown" style="margin-bottom:0em;padding-top:0em;padding-left:0em;padding-right:0em;padding-bottom:0em;text-align:center;font-family:Roboto;color:rgb(255, 255, 255)"> 
                     <div id="clock"></div> 
@@ -313,7 +205,7 @@
                     <span style="font-size:1.2em;display: inline-block;width: 20%;">HOURS</span>
                     <span style="font-size:1.2em;display: inline-block;width: 20%;">MINUTES</span>
                     <span style="font-size:1.2em;display: inline-block;width: 20%;">SECONDS</span>
-                    
+
                     <script type="text/javascript">
                       var wearHacks = new Date("2015-11-22");
                       $('#clock').countdown(wearHacks, function(event) {
@@ -325,11 +217,12 @@
                       });
                     </script>
                 </div>
-                
-            </div>
-          </div>
+            </section>
         </div>
-      </section>
+
+      </div>
+    </div>
+      
 
       <section class="bg-primary" id="about">
         <div class="container">
