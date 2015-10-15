@@ -36,7 +36,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Eleyine Zarour">
+    <meta name="author" content="WearHacks KW">
     <meta http-equiv="content-language" content="en">
     <meta name="description" content="Promoting innovation and entrepreneurship in Wearable Technology and Internet of Things around the globe.">
 
@@ -59,6 +59,7 @@
 
 
       <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,200' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;lang=en' rel='stylesheet' type='text/css'>
 
 
@@ -76,6 +77,8 @@
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+      <script type="text/javascript" src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -87,6 +90,7 @@
       <script>
         //TODO put it here
       </script>
+        
     </head>
 
     <body id="page-top">
@@ -188,9 +192,11 @@
                   </a>
                 </div>
               </li>
+<!--
               <li class="text-right">
                 <a class="btn btn-link pull-right" href="/en/register/">Register</a>
               </li>
+-->
             </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -234,7 +240,7 @@
                   <div class="col col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-2 hardware  cycle-slideshow"
                        data-cycle-fx="flipVert"
                        data-cycle-pause-on-hover="true"
-                       data-cycle-speed="500"
+                       data-cycle-speed="1000"
                        data-cycle-timeout="1500"
                        data-cycle-center-vert="true"
                        data-cycle-center-horz="true"
@@ -295,7 +301,35 @@
         <div class="background"></div>
       </header>
 
-
+      <section class="bg-primary" id="countdown">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 text-center">
+                
+                <!-- Clock -->
+                <div id="countdown" style="margin-bottom:0em;padding-top:0em;padding-left:0em;padding-right:0em;padding-bottom:0em;text-align:center;font-family:Roboto;color:rgb(255, 255, 255)"> 
+                    <div id="clock"></div> 
+                    <span style="font-size:1.2em;display: inline-block;width: 20%;">DAYS</span>
+                    <span style="font-size:1.2em;display: inline-block;width: 20%;">HOURS</span>
+                    <span style="font-size:1.2em;display: inline-block;width: 20%;">MINUTES</span>
+                    <span style="font-size:1.2em;display: inline-block;width: 20%;">SECONDS</span>
+                    
+                    <script type="text/javascript">
+                      var wearHacks = new Date("2015-11-22");
+                      $('#clock').countdown(wearHacks, function(event) {
+                        var $this = $(this).html(event.strftime(''
+                          + '<span style="font-weight: bold;font-size:5em;display: inline-block;width: 20%;">%D</span>'
+                          + '<span style="font-weight: bold;font-size:5em;display: inline-block;width: 20%;">%H</span>'
+                          + '<span style="font-weight: bold;font-size:5em;display: inline-block;width: 20%;">%M</span>'
+                          + '<span style="font-weight: bold;font-size:5em;display: inline-block;width: 20%;">%S</span>'));
+                      });
+                    </script>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="bg-primary" id="about">
         <div class="container">
@@ -316,10 +350,11 @@
                 We strive to make hardware education accessible, approachable, and affordable. <br>
 
                 For an intensive 48 hours, you will learn new tools, meet industry experts, collaborate with other talented students and young professionals and build new wearable and connected technology.
-
+                
               </p>
               <a href="http://wearhacks.com" class="btn btn-default btn-xl">
                 Organization Website</a>
+                
             </div>
           </div>
         </div>
