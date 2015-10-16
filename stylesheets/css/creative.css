@@ -40,6 +40,7 @@ p {
 .bg-primary {
   background-color: #1e699c;
 }
+
 .bg-countdown{
   background-color: #fff;
   background-image: url('../../images/countdown.jpg');
@@ -48,8 +49,19 @@ p {
   -o-background-size: cover;
   background-size: cover;
   height: 400px; 
-  margin-left: -15px;
-  padding-top: 100px;
+  margin: 0 -15px;
+  padding-top: 10%;
+}
+.countdownText {
+  font-size: 150%;
+    display: inline-block;
+    width: 20%;
+}
+.countdownTime {
+  font-weight: 700;
+    font-size: 500%;
+    display: inline-block;
+    width: 20%;
 }
 .bg-dark {
   background-color: #222222;

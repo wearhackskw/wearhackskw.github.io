@@ -179,9 +179,9 @@
                     </div>
                 </div>
                   <!-- Mailchimp stuff was here -->
-                <div class="row how">
+                <div class="row">
                   <div class="col-sm-4 col-sm-offset-4 col-xs-10">
-                    <a class="btn btn-default btn-xl btn-block" href="mailto:kitchener@wearhacks.com">Sponsor Us</a>
+                    <a class="btn btn-default btn-xl btn-block" href="http://eepurl.com/bCMgTv" target="_blank">Pre-Register Now</a>
                   </div>
                 </div>
               </div>
@@ -194,15 +194,15 @@
       
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center hidden-xs">
             <section class="bg-countdown" id="countdownSection">
                 <!-- Clock -->
                 <div id="countdown" style="margin-bottom:0em;padding-top:0em;padding-left:0em;padding-right:0em;padding-bottom:0em;text-align:center;font-family:Roboto;color:rgb(255, 255, 255)"> 
                     <div id="clock"></div> 
-                    <span style="font-size:1.2em;display: inline-block;width: 20%;">DAYS</span>
-                    <span style="font-size:1.2em;display: inline-block;width: 20%;">HOURS</span>
-                    <span style="font-size:1.2em;display: inline-block;width: 20%;">MINUTES</span>
-                    <span style="font-size:1.2em;display: inline-block;width: 20%;">SECONDS</span>
+                    <span class="countdownText">DAYS</span>
+                    <span class="countdownText">HOURS</span>
+                    <span class="countdownText">MINUTES</span>
+                    <span class="countdownText">SECONDS</span>
                     <hr>
                     <h1>#WearHacksKW</h1>
 
@@ -210,17 +210,17 @@
                       var wearHacks = new Date("2015-11-20");
                       $('#clock').countdown(wearHacks, function(event) {
                         var $this = $(this).html(event.strftime(''
-                          + '<span style="font-weight: 700;font-size:5em;display: inline-block;width: 20%;">%D</span>'
-                          + '<span style="font-weight: 700;font-size:5em;display: inline-block;width: 20%;">%H</span>'
-                          + '<span style="font-weight: 700;font-size:5em;display: inline-block;width: 20%;">%M</span>'
-                          + '<span style="font-weight: 700;font-size:5em;display: inline-block;width: 20%;">%S</span>'));
+                          + '<span class="countdownTime">%D</span>'
+                          + '<span class="countdownTime">%H</span>'
+                          + '<span class="countdownTime">%M</span>'
+                          + '<span class="countdownTime">%S</span>'));
                       });
                     </script>
                 </div>
             </section>
         </div>
           
-        <div id="joinUs" class="col-xs-12 col-sm-6 col-md-6 text-center">
+        <div id="joinUs" class="col-xs-12 col-sm-12 col-md-6 text-center">
             <p>
             <h1>JOIN US</h1>
             Come join us for 36 hours of learning, creating, and hacking in a city
@@ -311,8 +311,8 @@ build anything you ever dreamed of
               <hr class="primary">
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/myo.png" class="img-responsive" alt="">
+              <a href="https://www.myo.com/" class="portfolio-box">
+                <img src="images/portfolio/myo.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -330,8 +330,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/muse.png" class="img-responsive" alt="">
+              <a href="http://www.choosemuse.com/" class="portfolio-box">
+                <img src="images/portfolio/muse.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -350,8 +350,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/kinect.png" class="img-responsive" alt="">
+              <a href="https://dev.windows.com/en-us/kinect" class="portfolio-box">
+                <img src="images/portfolio/kinect.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -369,8 +369,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/nod-ring.png" class="img-responsive" alt="">
+              <a href="https://nod.com/" class="portfolio-box">
+                <img src="images/portfolio/nod-ring.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -388,8 +388,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/rift.png" class="img-responsive" alt="">
+              <a href="https://developer.oculus.com/" class="portfolio-box">
+                <img src="images/portfolio/rift.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -407,8 +407,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/estimote.png" class="img-responsive" alt="">
+              <a href="http://estimote.com/" class="portfolio-box">
+                <img src="images/portfolio/estimote.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -427,8 +427,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/pebble.png" class="img-responsive" alt="">
+              <a href="http://developer.pebble.com/" class="portfolio-box">
+                <img src="images/portfolio/pebble.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -446,8 +446,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/metawear.png" class="img-responsive" alt="">
+              <a href="http://mbientlab.com/" class="portfolio-box">
+                <img src="images/portfolio/metawear.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -465,8 +465,8 @@ build anything you ever dreamed of
               </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a href="#" class="portfolio-box">
-                <img src="images/portfolio/particle.png" class="img-responsive" alt="">
+              <a href="https://www.particle.io/" class="portfolio-box">
+                <img src="images/portfolio/particle.jpg" class="img-responsive" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -726,8 +726,8 @@ build anything you ever dreamed of
                       <div class="accordion-inner">
                         <p>
 
-                          The first 50 students and 50 non-students who can solve our little puzzle can attend for free. <br>
-                          Otherwise, tickets are starting at only $15 for students and $25 for non-students.  <br>
+                          The first 25 students and 25 non-students who can solve our little puzzle can attend for free. <br>
+                          Otherwise, tickets are starting at only $7 for students and $14 for non-students.  <br>
                           <strong>This covers all costs of attending - food and hardware will be provided.</strong> See you there! :)
 
                         </p>
@@ -886,7 +886,7 @@ build anything you ever dreamed of
                     <h2 class="section-heading">Venue</h2>
                     <hr class="bg-white">
                     <div class="col-xs-10 col-xs-offset-1 text-center">
-                    <h3 class="subtitle"><small>Accelerator Centre - 295 Hagey Blvd., Waterloo</small></h3>
+                    <h3 class="subtitle"><a href="https://www.google.com/maps/dir//43.4774424,-80.5491447/@43.477442,-80.549145,15z?hl=en-US"><small>Accelerator Centre - 295 Hagey Blvd., Waterloo</small></a></h3>
                     </div>
                     <div class="row">
                       <div class="website col-xs-12 text-center center-block">
