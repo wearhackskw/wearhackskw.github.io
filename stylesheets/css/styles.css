@@ -106,6 +106,24 @@ header .header-content-inner .who .logo {
     background-size: 90% auto;
   }
 }
+header .header-content-inner .power .col {
+    min-height: 50px;
+    height: 50px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+header .header-content-inner .power .ac {
+    display: block;
+    background-image: url('../../media/sponsors/powered-ac.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 500px) {
+    header .header-content-inner .power .ac {
+        background-size: 90% auto;
+    }
+}
 header .header-content-inner .who .info {
   display: block;
 }
@@ -163,11 +181,7 @@ header .header-content-inner .who .info p.small {
     padding: 0;
   }
 }
-@media (max-width: 600px) {
-  header .header-content-inner .what {
-    display: none!important;
-  }
-}
+
 header .header-content-inner .what {
   display: block;
   min-height: 200px;
