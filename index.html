@@ -194,8 +194,34 @@
 
       
     <div class="container-fluid">
-      <div class="row">  
-        <div id="joinUs" class="col-xs-12 col-sm-12 col-md-12 text-center">
+        <div class="row">
+            <div class="col-md-6 text-center hidden-xs">
+                <section class="bg-countdown" id="countdownSection">
+                    <!-- Clock -->
+                    <div id="countdown" style="margin-bottom:0em;padding-top:0em;padding-left:0em;padding-right:0em;padding-bottom:0em;text-align:center;font-family:Roboto;color:rgb(255, 255, 255)"> 
+                        <div id="clock"></div> 
+                        <span class="countdownText">DAYS</span>
+                        <span class="countdownText">HOURS</span>
+                        <span class="countdownText">MINUTES</span>
+                        <span class="countdownText">SECONDS</span>
+                        <hr>
+                        <h1>#WearHacksKW</h1>
+
+                        <script type="text/javascript">
+                            var wearHacks = new Date("2016-03-18");
+                            $('#clock').countdown(wearHacks, function(event) {
+                                var $this = $(this).html(event.strftime(''
+                                                                        + '<span class="countdownTime">%D</span>'
+                                                                        + '<span class="countdownTime">%H</span>'
+                                                                        + '<span class="countdownTime">%M</span>'
+                                                                        + '<span class="countdownTime">%S</span>'));
+                            });
+                        </script>
+                    </div>
+                </section>
+            </div>
+
+            <div id="joinUs" class="col-xs-12 col-sm-12 col-md-6 text-center">
             <p>
             <h1>JOIN US</h1>
             Come join us for 36 hours of learning, creating, and hacking in a city
