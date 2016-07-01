@@ -1,0 +1,150 @@
+body{
+    background-color: #000040;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 2.5vw;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+h3{
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+ul{
+    margin-left: 3vw;
+    
+}
+
+li{
+    color: white;
+    width: 200%;
+}
+
+.btnwrap{
+    text-align: center;
+}
+
+#desc_hx{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 4;
+}
+
+#desc_jr{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 5;
+}
+
+#desc_sr{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 6;
+}
+
+#desc_mr{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 7;
+}
+
+#desc_vr{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 8;
+}
+
+#desc_de{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 9;
+}
+
+#desc_fi{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 10;
+}
+
+#desc_lo{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 11;
+}
+
+#desc_pr{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 12;
+}
+
+#desc_we{
+    display: none;
+    height: 35vw;
+    width: 35vw;
+    z-index: 13;
+}
+
+.glyphicon{
+    margin-top: 1.2vw;
+    color: white;
+    font-size: 2.5em;
+}
+
+.inside{
+    padding-left: 5vw;
+    padding-right: 2vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -3vw;
+}
+
+#logo{
+    max-height: 35vw;
+    max-width: 35vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 14;
+}
+
+.row{
+    padding-top: 1.5vw;
+}
+
+.signupbtn{
+    background-color: #FFFFFF;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+    color: #000040;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
