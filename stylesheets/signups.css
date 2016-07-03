@@ -1,10 +1,10 @@
 body{
     background-color: #000000;
     background: 50% 50% no-repeat;
-    -webkit-background-size: center;
-    -moz-background-size: center;
-    -o-background-size: center;
-    background-size: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-image: url('../../images/kwdark.png');
     background-repeat: no-repeat;
 }
