@@ -141,6 +141,10 @@ li{
     z-index: 14;
 }
 
+.pointercursor{
+    cursor: pointer;
+}
+
 .row{
     padding-top: 1.5vw;
 }
