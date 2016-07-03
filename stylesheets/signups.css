@@ -1,14 +1,18 @@
 body{
-    background-image: image("kwdark.png");
-    background-repeat: no-repeat;
     background-color: #000040;
+    background: 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../../images/kwdark.png');
+    background-repeat: no-repeat;
 }
 
 h1{
     text-align: center;
     color: white;
     padding-top: 1vw;
-    padding-bottom: 2.5vw;
     font-family: sans-serif;
 }
 
@@ -137,13 +141,26 @@ li{
     padding-top: 1.5vw;
 }
 
+.selected{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.selected .col-md-2 span{
+    color: black;
+}
+
+.selected .col-md-10 h2{
+    color:black;
+}
+
 .signupbtn{
     background-color: #FFFFFF;
     padding: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    margin-top: 2vw;
-    color: #000040;
+    margin-top: 1vw;
+    color: #000000;
     font-size: 2vw;
     font-weight: 700;
     font-family: sans-serif;
