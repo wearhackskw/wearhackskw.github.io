@@ -22,66 +22,75 @@ function clearDescs(){
     $(".box_pr").removeClass("selected");
 } 
 
-
 $("document").ready(function(){
     $(".box_hx").click(
     function () {
         clearDescs();
         $("#desc_hx").css("display","block");
         $(".box_hx").addClass("selected");
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_fi").click(
     function () {
         clearDescs();
         $("#desc_fi").css("display","block");
         $(".box_fi").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_we").click(
     function () {
         clearDescs();
         $("#desc_we").css("display","block");
         $(".box_we").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_de").click(
     function () {
         clearDescs();
         $("#desc_de").css("display","block");
         $(".box_de").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_jr").click(
     function () {
         clearDescs();
         $("#desc_jr").css("display","block");
         $(".box_jr").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_mr").click(
     function () {
         clearDescs();
         $("#desc_mr").css("display","block");
         $(".box_mr").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_sr").click(
     function () {
         clearDescs();
         $("#desc_sr").css("display","block");
         $(".box_sr").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_vr").click(
     function () {
         clearDescs();
         $("#desc_vr").css("display","block");
         $(".box_vr").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_lo").click(
     function () {
         clearDescs();
         $("#desc_lo").css("display","block");
         $(".box_lo").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
     $(".box_pr").click(
     function () {
         clearDescs();
         $("#desc_pr").css("display","block");
         $(".box_pr").addClass("selected")
+        $(".signupbtn").removeClass("unselectedbtn");
     });
 });

@@ -160,6 +160,7 @@ li{
 
 .signupbtn{
     background-color: #FFFFFF;
+    border-radius: 5px;
     padding: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -170,4 +171,7 @@ li{
     font-family: sans-serif;
 }
 
+.unselectedbtn{
+    margin-top: 5.6vw;
+}
 
