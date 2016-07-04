@@ -48,6 +48,10 @@ li{
     text-align: center;
 }
 
+.darken{
+    background-color:rgba(0,0,0,0.7);
+}
+
 #desc_hx{
     display: none;
     height: 35vw;
