@@ -9,7 +9,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../../images/kwdark.png');
+    background-image: url('../../images/kw.png');
     background-repeat: no-repeat;
 }
 
@@ -53,9 +53,9 @@ li{
     border-right: 3px solid #ffffff;
 }
 
-.darken{
+/*.darken{
     background-color:rgba(0,0,0,0.4);
-}
+}*/
 
 #desc_hx{
     display: none;
