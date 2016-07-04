@@ -48,6 +48,11 @@ li{
     text-align: center;
 }
 
+.col-md-3{
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+}
+
 .darken{
     background-color:rgba(0,0,0,0.7);
 }
