@@ -1,3 +1,10 @@
+.orglogo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 7.43vw;
+}
+
 body{
     background-color: #000000;
     background: 50% 50% no-repeat;
@@ -5,7 +12,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../../images/kw.png');
+    background-image: url('/../../images/kw.png');
     background-repeat: no-repeat;
     left: 0;
     right: 0;
@@ -48,9 +55,12 @@ li{
     text-align: center;
 }
 
-.col-md-3{
-    border-left: 3px solid #ffffff;
+._r{
     border-right: 3px solid #ffffff;
+}
+
+._l{
+    border-left: 3px solid #ffffff;
 }
 
 /*.darken{
@@ -147,7 +157,7 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    z-index: 14;
+    z-index: 1;
 }
 
 .pointercursor{
@@ -155,12 +165,12 @@ li{
 }
 
 .row{
-    padding-top: 1.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 
 .selected{
     background-color: white;
-    border-radius: 4px;
 }
 
 .selected .col-md-2 span{
@@ -187,4 +197,5 @@ li{
 .unselectedbtn{
     margin-top: 5.6vw;
 }
+
 
