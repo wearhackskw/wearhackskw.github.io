@@ -1,11 +1,94 @@
 .orglogo{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
     height: 7.43vw;
 }
+header {
+  background-color: #2a223e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a223e), to(#000000));
+  background: -webkit-linear-gradient(top, #2a223e, #000000);
+  background: -moz-linear-gradient(top, #2a223e, #000000);
+  background: -ms-linear-gradient(top, #2a223e, #000000);
+  background: -o-linear-gradient(top, #2a223e, #000000);
+  min-height: 100%;
+}
 
-body{
+header .header-content {
+  position: absolute;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+  z-index: 100;
+  top: 0%;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  padding: 0 50px;
+}
+
+@media (max-width: 992px) {
+  header .header-content {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px){
+    header .header-content .header-content-inner {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+header .header-content-inner h3 {
+  line-height: 1.3em;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 200;
+}
+header .header-content-inner h3 a {
+  color: white;
+  border-bottom: 1px dotted;
+}
+header .header-content-inner h3 a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+@media (max-width: 992px) {
+  header .header-content-inner h3 {
+    font-family: "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
+  }
+}
+header .header-content-inner .who .col {
+  position: relative;
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+header .background {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('../../images/kw.png');
+  opacity: 20;
+  filter: alpha(opacity=2000);
+  opacity: 0.4;
+}
+
+/*body{
     background-color: #000000;
     background: 50% 50% no-repeat;
     -webkit-background-size: cover;
@@ -18,7 +101,7 @@ body{
     right: 0;
     top: 0;
     bottom: 0;
-}
+}*/
 
 h1{
     text-align: center;
@@ -49,10 +132,12 @@ ul{
 li{
     color: white;
     width: 200%;
+    text-align: left;
 }
 
 .btnwrap{
     text-align: center;
+    margin-bottom: 1v
 }
 
 ._r{
@@ -69,70 +154,70 @@ li{
 
 #desc_hx{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 4;
 }
 
 #desc_jr{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 5;
 }
 
 #desc_sr{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 6;
 }
 
 #desc_mr{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 7;
 }
 
 #desc_vr{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 8;
 }
 
 #desc_de{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 9;
 }
 
 #desc_fi{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 10;
 }
 
 #desc_lo{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 11;
 }
 
 #desc_pr{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 12;
 }
 
 #desc_we{
     display: none;
-    height: 35vw;
+    height: 20vw;
     width: 35vw;
     z-index: 13;
 }
@@ -152,8 +237,8 @@ li{
 }
 
 #logo{
-    max-height: 35vw;
-    max-width: 35vw;
+    max-height: 30vw;
+    max-width: 30vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -187,7 +272,7 @@ li{
     padding: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    margin-top: 1vw;
+    margin-top: 0.5vw;
     color: #000000;
     font-size: 2vw;
     font-weight: 700;
@@ -198,4 +283,21 @@ li{
     margin-top: 5.6vw;
 }
 
+#social {
+  padding: 40px 0;
+}
+#social .section-heading {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+#social a.fa {
+  color: #666;
+}
+#social a.fa:hover {
+  color: #ddd;
+  text-decoration: none;
+}
 
+#applyBtn{
+    font-size: 30px;
+}
