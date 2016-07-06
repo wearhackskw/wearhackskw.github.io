@@ -184,7 +184,7 @@ header .header-content-inner .who .info p.small {
 
 header .header-content-inner .what {
   display: block;
-  min-height: 200px;
+  min-height: 100px;
   margin: 15px 0;
 }
 header .header-content-inner .what .hardware img {
@@ -206,17 +206,17 @@ header .header-content-inner .what .info {
     max-width: 80%;
   }
 }
-header .header-content-inner .what .col {
+/*header .header-content-inner .what .col {
   min-height: 200px;
   height: 200px;
   max-height: 200px;
-}
-header .header-content-inner .what .col.text {
+}*/
+/*header .header-content-inner .what .col.text {
   display: table;
   min-height: 200px;
   height: 200px;
   max-height: 200px;
-}
+}*/
 header .header-content-inner .what .col.text p {
   display: table-cell;
   vertical-align: middle;
@@ -234,7 +234,7 @@ header .header-content-inner .what .col.text p {
 @media (max-width: 600px) {
   header .header-content-inner .what .col.text {
     min-height: 30px;
-    height: px;
+    height: 30px;
     max-height: 30px;
   }
   header .header-content-inner .what .col.text p {
