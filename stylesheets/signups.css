@@ -1,9 +1,9 @@
 .orglogo{
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 7.43vw;
+    height: 7vw;
 }
 header {
   background-color: #2a223e;
@@ -130,6 +130,7 @@ h5{
     color: white;
     font-family: sans-serif;
     margin-top: -1.8vw;
+    font-size: 1.8vw;
 }
 
 ul{
