@@ -125,6 +125,13 @@ h3{
     font-size: 1.8vw;
 }
 
+h5{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -1.8vw;
+}
+
 ul{
     margin-left: 3vw;
     
