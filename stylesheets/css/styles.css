@@ -112,13 +112,6 @@ header .header-content-inner .power .col {
     max-height: 50px;
     margin-top: 20px;
 }
-header .header-content-inner .power .ac {
-    display: block;
-    background-image: url('../../media/sponsors/powered-ac.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 @media (max-width: 500px) {
     header .header-content-inner .power .ac {
         background-size: 90% auto;
