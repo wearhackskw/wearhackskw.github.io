@@ -5,7 +5,7 @@ Classes/ids should be sorted alphabetically, with css attributes listed alphabet
 
 For clarity, do not specify multiple values on one line. Break it up. See below for example.
 
-padding: 50px 0 50px; ----> padding-padding-bottom: 50px; padding-right: 0px; padding-top: 50px; 
+padding: 50px 0 50px; ----> padding-padding-bottom: 50px; padding-right: 0px; padding-top: 50px;
 
 Table of Contents:
 -ELEMENTS
@@ -109,7 +109,7 @@ header .background {
     -o-background-size: cover;
     -webkit-background-size: cover;
     background: 50% 50% no-repeat;
-    background-image: url('2017/images/kw.png');
+    background-image: url('../2017/images/kw.png');
     background-size: cover;
     bottom: 0px;
     display: block;
@@ -175,7 +175,7 @@ header .header-content-inner .power .col {
     height: 50px;
     margin-top: 20px;
     max-height: 50px;
-    min-height: 50px; 
+    min-height: 50px;
 }
 
 header .header-content-inner .what {
@@ -252,7 +252,7 @@ header .header-content-inner .who .info p.small {
 }
 
 header .header-content-inner .who .logo {
-    background-image: url('images/logo-text-white.png');
+    background-image: url('../images/logo-text-white.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -260,7 +260,7 @@ header .header-content-inner .who .logo {
 }
 
 header .header-content-inner .who .mascot {
-    background-image: url('images/logo-white.png');
+    background-image: url('../images/logo-white.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 90%;
@@ -317,11 +317,11 @@ section {
 .bg-countdown{
     -o-background-size: cover;
     -moz-background-size: cover;
-    -webkit-background-size: cover;  
+    -webkit-background-size: cover;
     background-color: #fff;
-    background-image: url('images/countdown.jpg');
+    background-image: url('../images/countdown.jpg');
     background-size: cover;
-    height: 400px; 
+    height: 400px;
     margin-bottom: 0px;
     margin-left: -15px;
     margin-right: -15px;
@@ -602,7 +602,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    background-image:  url('images/logo-all-white.png');
+    background-image:  url('../images/logo-all-white.png');
     background-repeat: no-repeat;
     background-size: 160px 45px;
     color: #1e699c;
@@ -654,7 +654,7 @@ fieldset[disabled] .btn-primary.active {
     position: absolute;
     text-align: center;
     transition: all 0.35s;
-    width: 100%;    
+    width: 100%;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -696,7 +696,7 @@ fieldset[disabled] .btn-primary.active {
     margin: auto;
     overflow: hidden;
     width: 200px;
-}   
+}
 
 .portrait.img-circle img {
     -webkit-transform: translate(-50%);
@@ -784,7 +784,7 @@ fieldset[disabled] .btn-primary.active {
 
 #navLogo img{
     margin-top: -12px;
-    max-height:45px; 
+    max-height:45px;
 }
 
 #registration-form-container {
@@ -1054,11 +1054,11 @@ fieldset[disabled] .btn-primary.active {
 /*------------------*/
 
 @media (min-width: 768px) {
-    
+
     header {
         min-height: 100%;
     }
-    
+
     header .header-content {
         -ms-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
@@ -1070,13 +1070,13 @@ fieldset[disabled] .btn-primary.active {
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     header .header-content .header-content-inner {
         margin-left: auto;
         margin-right: auto;
         max-width: 1000px;
     }
-    
+
     header .header-content .header-content-inner p {
         font-size: 18px;
         margin-left: auto;
@@ -1086,21 +1086,21 @@ fieldset[disabled] .btn-primary.active {
 }
 
 @media (max-width: 992px) {
-    
+
     header .header-content {
         margin-bottom: 0px;
     }
 }
 
 @media (max-width: 992px) {
-    
+
     header .header-content-inner h3 {
         font-family: "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
     }
 }
 
 @media (max-width: 500px) {
-    
+
     header .header-content-inner .power {
         background-size: 90% auto;
     }
@@ -1113,39 +1113,39 @@ fieldset[disabled] .btn-primary.active {
 }
 
 @media (max-width: 600px) {
-    
+
     header .header-content-inner .what .col.text {
         height: 30px;
         max-height: 30px;
         min-height: 30px;
     }
-    
+
     header .header-content-inner .what .col.text p {
         text-align: center;
     }
 }
 
 @media (max-width: 992px) {
-    
+
     header .header-content-inner .what .col.text p {
         text-align: center;
     }
 }
 
 @media (max-width: 992px) {
-    
+
     header .header-content-inner .who .col {
         height: 80px;
         max-height: 80px;
         min-height: 80px;
     }
-    
+
     header .header-content-inner .who .info {
         height: 10px;
         min-height: 10px;
-        width: 100%;  
+        width: 100%;
     }
-    
+
     header .header-content-inner .who .info div {
         display: block;
         float: left;
@@ -1155,16 +1155,16 @@ fieldset[disabled] .btn-primary.active {
         min-height: 20px;
         width: 33%;
     }
-    
+
     header .header-content-inner .who .info p {
         font-size: 0.9em;
         line-height: 15px;
         padding: 0px;
         text-align: middle;
         top: 0;
-        width: 100%;     
+        width: 100%;
     }
-    
+
     header .header-content-inner .who .info p.small {
         font-size: 0.9em;
         padding: 0px;
@@ -1172,7 +1172,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 @media (max-width: 500px) {
-    
+
     header .header-content-inner .who .logo {
         background-size: 90% auto;
     }
@@ -1192,19 +1192,19 @@ fieldset[disabled] .btn-primary.active {
 }
 
 @media (min-width: 768px) {
-    
+
     .navbar-default {
         background-color: rgba(0, 0, 0, 0.3);
     }
-    
+
     .navbar-default.affix {
         background-color: rgba(255, 255, 255, 0.8);;
         border-color: rgba(34, 34, 34, 0.05);
     }
-    
+
     .navbar-default.affix .navbar-header .navbar-brand {
         color: #1e699c;
-        background-image:  url('images/logo-all-colour.png');
+        background-image:  url('../images/logo-all-colour.png');
         background-repeat: no-repeat;
         background-size: 160px 45px;
         font-size: 14px;
@@ -1212,69 +1212,69 @@ fieldset[disabled] .btn-primary.active {
         margin-top: 3px;
         width: 160px;
     }
-    
+
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #164c71;
     }
-    
+
     .navbar-default.affix .navbar-header .navbar-brand:hover {
         color: #164c71;
     }
-    
+
     .navbar-default.affix .nav > li > a{
         color: #222222;
     }
-    
+
     .navbar-default.affix .nav > li > a:focus {
         color: #222222;
     }
-    
+
     .navbar-default.affix .nav > li > a:focus:hover {
         color: #1e699c;
     }
-    
+
     .navbar-default.affix .nav > li > a:hover{
-        color: #1e699c; 
+        color: #1e699c;
     }
-    
+
      .navbar-default .nav > li > a {
         color: rgba(255, 255, 255, 0.8);
     }
-    
+
     .navbar-default .nav > li > a:focus {
         color: rgba(255, 255, 255, 0.8);
     }
-    
+
     .navbar-default .nav > li > a:focus:hover {
         color: white;
     }
-    
+
     .navbar-default .nav > li > a:hover{
         color: white;
     }
-    
+
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, 0.8);
     }
-  
+
     .navbar-default .navbar-header .navbar-brand:focus {
         color: white;
     }
-    
+
     .navbar-default .navbar-header .navbar-brand:hover{
         color: white;
     }
 }
 
 @media (max-width: 768px) {
-    
+
     .navbar .social-btns {
         margin-top: 10px;
     }
 }
 
 @media (max-width: 768px) {
-    
+
     .navbar .social-btns > * {
         color: #3a3a3c;
     }
@@ -1287,18 +1287,18 @@ fieldset[disabled] .btn-primary.active {
 }
 
 @media (min-width: 768px) {
-    
+
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 22px;
     }
-    
+
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 16px;
     }
 }
 
 @media (min-width: 992px) {
-    
+
     .service-box {
         margin-bottom: 0px;
         margin-left: auto;
