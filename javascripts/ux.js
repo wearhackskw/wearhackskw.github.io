@@ -28,8 +28,6 @@ var UXModule = (function ($) {
         // Initialize all tooltips
         $('[data-toggle="tooltip"]').tooltip();
 
-        console.log("hi")
-
         var my = {
             'msnry': msnry
         }
