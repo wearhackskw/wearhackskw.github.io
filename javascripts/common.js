@@ -23,7 +23,7 @@
               }
           },
         });
-        console.log("Ajax properly setup");
+
     }
     function langSetup() {
         $("a.lang").on("click", function(e){
