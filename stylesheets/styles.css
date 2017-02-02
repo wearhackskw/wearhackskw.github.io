@@ -25,7 +25,6 @@ a {
     -moz-transition: all 0.35s;
     color: #1e699c;
     transition: all 0.35s;
-    text-decoration: none !important;
 }
 
 a[data-toggle="tooltip"]:after {
