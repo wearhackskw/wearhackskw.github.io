@@ -794,6 +794,10 @@ fieldset[disabled] .btn-primary.active {
     max-height:45px; 
 }
 
+#mainNav{
+	max-height: 50px;
+}
+
 #registration-form-container {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
