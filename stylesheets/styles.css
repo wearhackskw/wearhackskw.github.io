@@ -309,6 +309,11 @@ section {
 /*------------------*/
 
 
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -480,6 +485,10 @@ fieldset[disabled] .btn-primary.active {
     font-size: 500%;
     font-weight: 700;
     width: 20%;
+}
+
+.hacksmith-padding{
+    padding-top: 4vw;
 }
 
 .navbar.affix .language-selection .btn-link,
@@ -740,6 +749,11 @@ fieldset[disabled] .btn-primary.active {
 
 .time{
     font font-weight: 700;
+}
+
+.youtube{
+    background-color: red;
+    color: white;
 }
 
 /*------------------*/
