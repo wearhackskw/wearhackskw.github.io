@@ -751,6 +751,10 @@ fieldset[disabled] .btn-primary.active {
     font font-weight: 700;
 }
 
+.waitlist{
+    background-color: dimgray;
+}
+
 .youtube{
     background-color: red;
     color: white;
